@@ -99,6 +99,7 @@ for row, row_buttons in enumerate(buttons):
             else:
                 rowspan, colspan = 1, 1
 
-            Button(root, text=text, width=5, height=2).grid(row=row, column=col, rowspan=rowspan, columnspan=colspan, sticky=N+E+W+S, padx=3, pady=3)
+            button = Button(root, text=text, width=5, height=2)
+            button.grid(row=row, column=col, rowspan=rowspan, columnspan=colspan, sticky=N+E+W+S, padx=3, pady=3)
 
 root.mainloop()
