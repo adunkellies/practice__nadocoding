@@ -23,10 +23,12 @@ photo = PhotoImage(file="gui_basic/img.png")
 btn6 = Button(root, image=photo)
 btn6.pack()
 
-def btncmd():
-    print("버튼이 클릭되었어요")
+
 
 btn7 = Button(root, text="동작하는 버튼", command=btncmd)
 btn7.pack()
+
+def btncmd():
+    print("버튼이 클릭되었어요")
 
 root.mainloop()
