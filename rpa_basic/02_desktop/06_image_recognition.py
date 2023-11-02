@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui # winleft + shift + s
 # file_menu = pyautogui.locateOnScreen("rpa_basic\\02_desktop\\file_menu.png")
 # print(file_menu)
 # pyautogui.click(file_menu)
