@@ -23,7 +23,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 
 # search_elem = driver.find_element(By.ID, "query") # 검색창에 해당하는 엘리먼트 찾기
 # # print(search_elem) # 검색창에 해당하는 요소 출력
-# search_elem.send_keys("나도코딩") # 검섹창에 "나도코딩" 이라고 입력
+# search_elem.send_keys("나도코딩") # 검색창에 "나도코딩" 이라고 입력
 # search_elem.send_keys(Keys.ENTER) # enter 키 입력
 
 # # a_elem = driver.find_element(By.TAG_NAME, "a") # a 태그에 해당하는 '첫' 엘리먼트를 가져옴
